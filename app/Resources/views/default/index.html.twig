@@ -1,0 +1,31 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    
+    {# include "landing/banner.html.twig" #}
+
+            <div id="main-content">
+                <div id="main-title">
+                    <h1>VOYAGIR</h1>
+                    <h3>un projet de plateforme collaborative de voyages responsables</h3>
+                </div>
+                <div id="main-form">
+                    <form class="form-inline" role="form">
+                        <div class="form-group">
+                            <label for="email">Email address:</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+                </div>
+            </div>
+            {#
+            {% include "landing/body.html.twig" %}
+            {% include "landing/section1.html" %}
+            {% include "landing/section2.html" %}
+            {% include "landing/section3.html" %}
+            {% include "landing/section4.html" %}
+            {% include "landing/section5.html" %}
+            #}
+
+{% endblock %}

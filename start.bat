@@ -1,0 +1,1 @@
+php D:\PHP\wamp\www\voyagir\app\console server:run
