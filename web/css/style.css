@@ -1,123 +1,138 @@
 /* Style.css */
+
 body{ 
-    background:#33ccaf;
     margin:0px;
-    color: white;
-    font-family: 'Reenie Beanie', cursive;
+    color: #333333;
+    background: #f8f8f0;
+    font-family: 'Sue Ellen Francisco', cursive;
     font-size: 30px;
-    text-align: center;
-    line-height: 25px;
 }
 
-p{
-    margin: -19px 0 10px;
+.btn{
+    color: white;
+    background-color: #ebc84c;
+    border-color: #ebc84c ;
 }
 
-.important{
-    color: rgb(0,51,153);
+.mc-field-group{
+    font-size: 20px;
+}
+
+#mce-EMAIL{
+    font-weight: 300;
+    color: #444485;
     font-family: 'Open Sans';
-    font-size: 19px;
-    padding: 22px 0 22px 0;
+    font-size: 14px;
 }
 
-.bandeau{
-    margin-top:20px;
-    font-size: 21px;
-}
-.bandeau a{
-    color:white;
-    padding-left: 20px;
-}
-
-.bandeau a:hover{
-    color: blue;
-    text-decoration: none;
-}
-
-.background-image{
-    width: 100%;
-}
-        
-.logo{
-    width: 350px;
-    position: relative;
-    top: -50px;
-}
-
-.important{
-    color: Rgb(0,51,153);
-    font-family: 'open sans';
-    font-size: 19px;
-    padding-bottom: 22px;
-}
-
-.flag-img{
-    float: left;
-    width: 40px;
-}
-
-#main-bubble{
-    background-color: rgb(235,200,76);
-    margin-top: 1%;
-    text-align:center ;
-    border-radius: 10px;
-    padding-left: 10px;
-    padding-bottom: 20px;
-}
-
-#main-bubble a{
-    text-decoration: none;
-    color: inherit;
-}
-
-#main-bubble a:hover{
-    text-decoration: underline;
-    color: #33ccaf;
-}
-
-@media (min-width: 764px) {
-    .background-image{
-        left: -210px;
-        min-height: 100%;
-        min-width: 1430px;
-        position: fixed;
-        width: 100%;
-        height: auto;
-        z-index: -1;
-        vertical-align: middle;
-        top: 0;
-        border: 0;
+@media (min-width: 480px){
+    .mc-field-group{
+        font-size: 25px;
     }
     
-    #main-bubble{
-        background-color: rgba(235,200,76,0.85);
-        margin-top: 25%;
-        text-align: center ;
-        border-radius: 50%;
-        padding: 0px 35px 75px 35px;
-    }
-    .bandeau{
-        padding-top: 30px ;
-        background-color: #33ccaf;
-        margin-top:0px;
-        text-align: right;
-        padding-right:10px;
-    }
-    .logo{
-        margin-left: -35px;
-        position: relative;
-        top: 0px;
-    }
-    .flag-img{
-        width: 30px;
+    .btn{
+        font-size: 25px
     }
 }
 
-@media (min-width: 1000px) {
-    .background-image{
-        left:0;
+@media (min-width: 768px) {
+    .mc-field-group{
+        font-size: 35px;
     }
-    .logo{
-        margin: 0;
+    
+    .btn{
+        font-size: 25px
     }
+    
+    .fr{
+        margin-top: 150px;
+        margin-bottom: 150px;
+        padding-right: 5px;
+        padding-top: 100px;
+    }
+    
+    .en{
+        margin-top:150px;
+        margin-left: 20px;
+    }
+}
+
+.en{
+    font-style: italic;margin-top: 20%;
+}
+
+#home {
+    color: #ebc84c;
+    background-color: #f8f8f0;
+    margin: 10%;
+    margin-bottom: 35%;}
+
+.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;
+    max-width:800px;
+    min-width:200px; }
+
+#main-form{
+    text-align: center;
+    padding-top: 3%;
+}
+
+.container-1{
+    width: 100%;
+}
+
+.container{
+    width: 80%;
+}
+
+.feature img{
+    padding: 20px;
+    border: 2px solid #33ccaf;
+    border-radius: 50%;
+}	
+
+.feature{
+    padding: 45px;
+}
+
+#footer{
+    background-color: #33ccaf;
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
+
+section{
+    height: 100%;
+    padding: 10%;
+}
+
+#kesako{
+    background-color: #ebc84c;
+}
+
+#why {
+    background-color: #a4e45a;
+}
+
+#the-project{
+    background-color: #33ccaf;
+}
+
+#call-to-action{
+    background-color: #ff2554;
+}
+
+#contact{
+    background-color: #33ccaf;
+    padding: 40px;
+}
+
+#contact-en{
+    font-style: italic;
+    border-top: 1px solid #333333;
+    font-size: 15px;
 }
