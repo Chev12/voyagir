@@ -1,113 +1,189 @@
 /* Style.css */
-
 body{ 
     margin:0px;
-    color: #333333;
+    color: #ebc84c;
     background: #f8f8f0;
     font-family: 'Sue Ellen Francisco', cursive;
-    font-size: 30px;
+    font-size: 4em;
 }
 
-.btn{
-    color: white;
-    background-color: #ebc84c;
-    border-color: #ebc84c ;
+a {
+    text-decoration: none;
 }
 
-.mc-field-group{
-    font-size: 20px;
+section{
+    height: 100%;
+    padding: 5%;
 }
 
-#mce-EMAIL{
-    font-weight: 300;
-    color: #444485;
-    font-family: 'Open Sans';
-    font-size: 14px;
+.icon {
+    display: inline-block;
+    height: 50px;
+    position: relative;
+    top: 5px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
-@media (min-width: 480px){
-    .mc-field-group{
-        font-size: 25px;
-    }
-    
-    .btn{
-        font-size: 25px
-    }
+.small-screen{
+    display: none;
 }
 
-@media (min-width: 768px) {
-    .mc-field-group{
-        font-size: 35px;
-    }
-    
-    .btn{
-        font-size: 25px
-    }
-    
-    .fr{
-        margin-top: 150px;
-        margin-bottom: 150px;
-        padding-right: 5px;
-        padding-top: 100px;
-    }
-    
-    .en{
-        margin-top:150px;
-        margin-left: 20px;
-    }
-}
-
-.en{
-    font-style: italic;margin-top: 20%;
-}
-
-#home {
-    color: #ebc84c;
-    background-color: #f8f8f0;
-    margin: 10%;
-    margin-bottom: 35%;}
-
-.displayed {
+.logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width:80%;
-    max-width:800px;
-    min-width:200px; }
+    width: 80%;
+    max-width: 800px;
+    min-width: 200px;
+}
+
+#home {
+    background-color: #f8f8f0;
+    margin: 10%;
+}
 
 #main-form{
     text-align: center;
     padding-top: 3%;
 }
 
-.container-1{
-    width: 100%;
+#keywords{
+    padding-bottom: 7%;
 }
 
-.container{
-    width: 80%;
+/* Section 1 */
+
+#contact{
+    font-family: 'Open Sans', cursive;
+    font-size: 0.5em;
+    background-color: #444485;
+    color: #ebc84c;
 }
 
-.feature img{
-    padding: 20px;
-    border: 2px solid #33ccaf;
-    border-radius: 50%;
-}	
-
-.feature{
-    padding: 45px;
+#contact h1 {
+    font-family: 'Sue Ellen Francisco', cursive;
+    color: #ebc84c;
+    font-size: 3em;
+    padding-top: 2%;
 }
 
+#contact h1 span {
+    color : #33ccaf;
+}
+
+#contact ul{
+    list-style-type: none;
+    display: table;
+    margin: 0 auto;
+    font-family: 'Open Sans';
+}
+#contact ul li{
+    margin: 5% 0 5% 0;
+}
+
+#contact .icon{
+    width: 3%;
+}
+
+.bullet {
+    width: 30px;
+    height: 30px;
+}
+
+/* Mail Chimp */
+.btn{
+    color: white;
+    background-color: #ebc84c;
+    border-color: #ebc84c ;
+    margin-bottom: 1%;
+}
+
+#home .icon {
+    width: 4%;
+}
+
+.icon.facebook{   
+    background-image: url('../img/facebook-v.png');
+}
+
+.icon.facebook:hover {
+    background-image: url('../img/facebook-b.png');
+}
+    
+.icon.twitter {
+    top: 7px;
+    background-image: url('../img/twitter-v.png');
+}
+
+.icon.twitter:hover {
+    background-image: url('../img/twitter-b.png');
+}
+
+.send img {
+    width: 80px;
+}
+
+#mce-EMAIL{
+    font-weight: 300;
+    color: #444485;
+    font-family: 'Open Sans';
+}
+
+/* 480px */
+@media (max-width: 480px){
+    body{
+        font-size: 0.5em;
+    }
+}
+
+@media (max-width: 768px) {
+    body{
+        font-size: 1.5em;
+    }
+
+    .small-screen{
+        display: block;
+    }
+    
+    .btn {
+        padding: 3px 6px;
+        margin-right: 5px;
+    }
+    
+    .send img {
+        width: 40px;
+    }
+    
+    #home .icon {
+        width: 15%;
+        height: 30px;
+        background-size: 30px;
+    }
+    
+    .feature img{
+        width: 50px;
+        margin: 5%;
+    }
+    #contact h1{
+        font-size: 2em;
+    }
+    #contact img{
+        width: 100px;
+    }
+    
+    #contact .bullet {
+        width: 10px;
+        height: 10px;
+    }
+}
+
+/*
 #footer{
     background-color: #33ccaf;
     padding: 5px;
     color: white;
     text-align: center;
-}
-
-section{
-    height: 100%;
-    padding: 10%;
 }
 
 #kesako{
@@ -126,13 +202,9 @@ section{
     background-color: #ff2554;
 }
 
-#contact{
-    background-color: #33ccaf;
-    padding: 40px;
-}
-
 #contact-en{
     font-style: italic;
     border-top: 1px solid #333333;
     font-size: 15px;
 }
+*/
