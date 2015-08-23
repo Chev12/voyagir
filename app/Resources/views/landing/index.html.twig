@@ -2,6 +2,7 @@
 
 {% block body %}
     
+    {% include "landing/banner.html.twig" %}
     <div id="home">
         <img class="logo" src="{{ asset('img/logo.png') }}" />
         <center>Ensemble développons un tourisme plus responsable grâce au partage de nos expériences !</center>
@@ -14,11 +15,11 @@
                             <label for="mce-EMAIL">Email </label>
                             <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" />
                             <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn">
-                                <i class="send"><img src="{{ asset('img/avion.png') }}" alt="Valider" ></i> 
+                                FOLLOW US
                             </button>
                             <div class="small-screen"><!-- Line break for smartphones --></div>
                             <a href="http://www.facebook.com/voyagir" target="_blank" class="icon facebook"></a>
-                            <a href="http://www.twitter.com/marinethica" target="_blank" class="icon twitter"></a>
+                            <a href="http://www.twitter.com/voyagir" target="_blank" class="icon twitter"></a>
                             <div id="mce-responses" class="clear">
                                 <div class="response" id="mce-error-response" style="display:none"></div>
                                 <div class="response" id="mce-success-response" style="display:none"></div>
@@ -32,7 +33,7 @@
         </div>
     </div>
     
-    {% include "landing/body.html.twig" %} 
+    {% include "landing/body.html.twig" %}
     {% include "landing/section1.html" %}
     {# {% include "landing/section2.html" %}
     {% include "landing/section3.html" %}

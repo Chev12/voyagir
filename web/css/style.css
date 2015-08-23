@@ -1,10 +1,7 @@
 /* Style.css */
 body{ 
     margin:0px;
-    color: #ebc84c;
     background: #f8f8f0;
-    font-family: 'Sue Ellen Francisco', cursive;
-    font-size: 4em;
 }
 
 a {
@@ -18,10 +15,10 @@ section{
 
 .icon {
     display: inline-block;
-    height: 50px;
+    height: 55px;
     position: relative;
     top: 5px;
-    background-size: contain;
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 
@@ -39,8 +36,11 @@ section{
 }
 
 #home {
+    color: #ebc84c;
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 3em;
     background-color: #f8f8f0;
-    margin: 10%;
+    margin: 16% 10% 16% 10%;
 }
 
 #main-form{
@@ -48,23 +48,61 @@ section{
     padding-top: 3%;
 }
 
+/* Banner */
+#banner{
+    color: white;
+    text-align: right;
+    height: 40px;
+    background-color: #33ccaf;
+    padding: 5px 5% 0% 5%;
+}
+#banner .logo{
+    width: 5%;
+    display: inline-block;
+    float: left;
+    position: relative;
+    top: -20px;
+}
+#banner a{
+    color: inherit;
+    margin: 0% 0.5% 0% 0%;
+}
+
+/* Body */
 #keywords{
     padding-bottom: 7%;
+    font-family: 'Open Sans', cursive;
+    color: white;
+    background-color: #33ccaf;
+}
+
+#keywords h1{
+    font-family: 'Sue Ellen Francisco', cursive;
+    color: #444485; 
+}
+
+.feature h2 {
+    font-family: 'Sue Ellen Francisco', cursive;
+}
+    
+.feature img{
+    margin-top: 20px;
+    margin-right: 10px;
+    width: 19%;
+    float: left;
 }
 
 /* Section 1 */
-
 #contact{
     font-family: 'Open Sans', cursive;
-    font-size: 0.5em;
     background-color: #444485;
     color: #ebc84c;
 }
 
 #contact h1 {
+    font-size: 4em;
     font-family: 'Sue Ellen Francisco', cursive;
     color: #ebc84c;
-    font-size: 3em;
     padding-top: 2%;
 }
 
@@ -79,7 +117,7 @@ section{
     font-family: 'Open Sans';
 }
 #contact ul li{
-    margin: 5% 0 5% 0;
+    vertical-align: middle;
 }
 
 #contact .icon{
@@ -87,61 +125,75 @@ section{
 }
 
 .bullet {
-    width: 30px;
-    height: 30px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
 }
 
 /* Mail Chimp */
 .btn{
     color: white;
+    font-size: 0.7em;
     background-color: #ebc84c;
     border-color: #ebc84c ;
     margin-bottom: 1%;
 }
 
 #home .icon {
-    width: 4%;
+    width: 5%;
 }
 
-.icon.facebook{   
-    background-image: url('../img/facebook-v.png');
+.icon.facebook{
+    top: 8px;
+    background-image: url('../img/facebook-j.png');
 }
 
 .icon.facebook:hover {
-    background-image: url('../img/facebook-b.png');
+    background-image: url('../img/facebook-v.png');
 }
     
 .icon.twitter {
-    top: 7px;
-    background-image: url('../img/twitter-v.png');
+    background-image: url('../img/twitter-j.png');
 }
 
 .icon.twitter:hover {
-    background-image: url('../img/twitter-b.png');
-}
-
-.send img {
-    width: 80px;
+    background-image: url('../img/twitter-v.png');
 }
 
 #mce-EMAIL{
-    font-weight: 300;
+    width: 20%;
+    height: 35px;
     color: #444485;
     font-family: 'Open Sans';
+    position: relative;
+    top: 13px;
 }
 
 /* 480px */
 @media (max-width: 480px){
-    body{
-        font-size: 0.5em;
+    #mce-EMAIL{
+        top: 8px;
     }
 }
 
 @media (max-width: 768px) {
     body{
+        font-size: 1em;
+    }
+    
+    #home{
         font-size: 1.5em;
     }
-
+        
+    #mce-EMAIL{
+        height: 15px;
+        top: 8px;
+    }
+    
+    #keywords h1{
+        font-size: 1.5em;
+    }
+    
     .small-screen{
         display: block;
     }
@@ -161,12 +213,8 @@ section{
         background-size: 30px;
     }
     
-    .feature img{
-        width: 50px;
-        margin: 5%;
-    }
     #contact h1{
-        font-size: 2em;
+        //font-size: 2em;
     }
     #contact img{
         width: 100px;
@@ -176,35 +224,8 @@ section{
         width: 10px;
         height: 10px;
     }
+    
+    #banner{
+        display: none;
+    }
 }
-
-/*
-#footer{
-    background-color: #33ccaf;
-    padding: 5px;
-    color: white;
-    text-align: center;
-}
-
-#kesako{
-    background-color: #ebc84c;
-}
-
-#why {
-    background-color: #a4e45a;
-}
-
-#the-project{
-    background-color: #33ccaf;
-}
-
-#call-to-action{
-    background-color: #ff2554;
-}
-
-#contact-en{
-    font-style: italic;
-    border-top: 1px solid #333333;
-    font-size: 15px;
-}
-*/
