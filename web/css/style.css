@@ -16,10 +16,10 @@ section{
 .icon {
     display: inline-block;
     height: 55px;
-    position: relative;
-    top: 5px;
     background-size: 100%;
     background-repeat: no-repeat;
+    position: relative;
+    top: 15px;
 }
 
 .small-screen{
@@ -38,7 +38,6 @@ section{
 #home {
     color: #ebc84c;
     font-family: 'Sue Ellen Francisco', cursive;
-    font-size: 3em;
     background-color: #f8f8f0;
     margin: 16% 10% 16% 10%;
 }
@@ -100,7 +99,6 @@ section{
 }
 
 #contact h1 {
-    font-size: 4em;
     font-family: 'Sue Ellen Francisco', cursive;
     color: #ebc84c;
     padding-top: 2%;
@@ -133,18 +131,22 @@ section{
 /* Mail Chimp */
 .btn{
     color: white;
-    font-size: 0.7em;
     background-color: #ebc84c;
     border-color: #ebc84c ;
     margin-bottom: 1%;
+    font-size: 2em;
 }
 
 #home .icon {
     width: 5%;
 }
 
+#main-form label{
+    font-size: 2em;
+}
+
 .icon.facebook{
-    top: 8px;
+    top: 18px;
     background-image: url('../img/facebook-j.png');
 }
 
@@ -166,13 +168,12 @@ section{
     color: #444485;
     font-family: 'Open Sans';
     position: relative;
-    top: 13px;
+    bottom: 10px;
 }
 
 /* 480px */
 @media (max-width: 480px){
     #mce-EMAIL{
-        top: 8px;
     }
 }
 
@@ -181,17 +182,13 @@ section{
         font-size: 1em;
     }
     
-    #home{
+    h1{
         font-size: 1.5em;
     }
         
     #mce-EMAIL{
         height: 15px;
-        top: 8px;
-    }
-    
-    #keywords h1{
-        font-size: 1.5em;
+        bottom: 0px;
     }
     
     .small-screen{
@@ -199,6 +196,7 @@ section{
     }
     
     .btn {
+        font-size: 1.2em;
         padding: 3px 6px;
         margin-right: 5px;
     }
@@ -212,10 +210,10 @@ section{
         height: 30px;
         background-size: 30px;
     }
-    
-    #contact h1{
-        //font-size: 2em;
+    #home label {
+        font-size: 1.5em;
     }
+    
     #contact img{
         width: 100px;
     }
