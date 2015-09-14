@@ -54,6 +54,10 @@ section{
     height: 40px;
     background-color: #33ccaf;
     padding: 5px 5% 0% 5%;
+    position: fixed;
+    top : 0px;
+    width: 100%;
+    z-index: 1;
 }
 #banner .logo{
     width: 5%;
@@ -63,8 +67,34 @@ section{
     top: -20px;
 }
 #banner a{
-    color: inherit;
+    color: #428bca;
     margin: 0% 0.5% 0% 0%;
+}
+#banner a:hover{
+    text-decoration: none;
+    color: #ebc84c;
+}
+
+#banner .icon {
+    width: 1.9%;
+    height: 22px;
+    top: 2px;
+}
+#banner .icon.facebook{
+    top: 3px;
+    background-image: url('../img/facebook-15b.png');
+}
+
+#banner .icon.facebook:hover {
+    background-image: url('../img/facebook-j.png');
+}
+    
+#banner .icon.twitter {
+    background-image: url('../img/twitter-15b.png');
+}
+
+#banner .icon.twitter:hover {
+    background-image: url('../img/twitter-j.png');
 }
 
 /* Body */
@@ -91,7 +121,7 @@ section{
     float: left;
 }
 
-/* Section 1 */
+/* Contact */
 #contact{
     font-family: 'Open Sans', cursive;
     background-color: #444485;
@@ -105,7 +135,15 @@ section{
 }
 
 #contact h1 span {
-    color : #33ccaf;
+    color: #33ccaf;
+}
+
+#contact a {
+    color: #ebc84c;
+}
+#contact a:hover {
+    text-decoration: none;
+    color: #33ccaf;
 }
 
 #contact ul{
@@ -126,6 +164,13 @@ section{
     display: inline-block;
     width: 20px;
     height: 20px;
+}
+
+/* Footer */
+#footer{
+    color: white;
+    background-color: #33ccaf;
+    padding: 10px 2% 5px 2%;
 }
 
 /* Mail Chimp */
@@ -169,6 +214,10 @@ section{
     font-family: 'Open Sans';
     position: relative;
     bottom: 10px;
+}
+
+#mce-success-response, #mce-error-response, .mce_inline_error{
+    font-size: 1.5em;
 }
 
 /* 480px */
