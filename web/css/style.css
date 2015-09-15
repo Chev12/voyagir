@@ -6,6 +6,7 @@ body{
 
 a {
     text-decoration: none;
+    color:#444485;
 }
 
 section{
@@ -15,7 +16,7 @@ section{
 
 .icon {
     display: inline-block;
-    height: 55px;
+    height: 50px;
     background-size: 100%;
     background-repeat: no-repeat;
     position: relative;
@@ -32,7 +33,7 @@ section{
     margin-right: auto;
     width: 80%;
     max-width: 800px;
-    min-width: 200px;
+    min-width: 250px;
 }
 
 #home {
@@ -40,10 +41,10 @@ section{
     font-family: 'Sue Ellen Francisco', cursive;
     background-color: #f8f8f0;
     margin: 16% 10% 16% 10%;
+    text-align: center;
 }
 
 #main-form{
-    text-align: center;
     padding-top: 3%;
 }
 
@@ -51,23 +52,25 @@ section{
 #banner{
     color: white;
     text-align: right;
-    height: 40px;
+    height: 50px;
     background-color: #33ccaf;
     padding: 5px 5% 0% 5%;
     position: fixed;
     top : 0px;
     width: 100%;
     z-index: 1;
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 25px;
 }
 #banner .logo{
     width: 5%;
     display: inline-block;
     float: left;
     position: relative;
-    top: -20px;
+    top: -25px;
 }
 #banner a{
-    color: #428bca;
+    color: #444485;
     margin: 0% 0.5% 0% 0%;
 }
 #banner a:hover{
@@ -76,7 +79,7 @@ section{
 }
 
 #banner .icon {
-    width: 1.9%;
+    width: 27px;
     height: 22px;
     top: 2px;
 }
@@ -168,22 +171,30 @@ section{
 
 /* Footer */
 #footer{
-    color: white;
-    background-color: #33ccaf;
+    color: #444485;
+    background-color: #ebc84c;
     padding: 10px 2% 5px 2%;
+    text-align: center;
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 20px;
 }
 
 /* Mail Chimp */
 .btn{
-    color: white;
+    color: #f8f8f0;
     background-color: #ebc84c;
     border-color: #ebc84c ;
-    margin-bottom: 1%;
-    font-size: 2em;
+    margin-bottom: 2%;
+    font-size: 1.6em;
 }
-
+.btn:hover {
+    background-color: #33ccaf;
+    border-color: #33ccaf ;   
+    color:#f8f8f0;
+}
 #home .icon {
-    width: 4%;
+    width: 50px;
+    display:inline-block;
 }
 
 #main-form label{
@@ -220,6 +231,9 @@ section{
     font-size: 1.5em;
 }
 
+.social-medias{
+    margin-top: 5em;
+}
 /* 480px */
 @media (max-width: 480px){
     #mce-EMAIL{
@@ -232,7 +246,11 @@ section{
     }
     
     h1{
-        font-size: 1.5em;
+        font-size: 2.5em;
+    }
+    
+    h2{
+        font-size:2.3em;
     }
         
     #mce-EMAIL{
