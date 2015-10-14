@@ -1,25 +1,28 @@
 <section id="contact">
     <div class="row text-center">
         <img src="{{ asset('/img/enveloppe-j.png') }}" />
-        <h1>Contactez-<span>Nous</span></h1>
-        <p>Posez-nous vos questions, dîtes-nous ce qui vous plaît dans le projet…<br />
-            Nous souhaitons construire cette plateforme avec vous, alors... Dîtes-nous tout !
-        </p>                       
+        <h1>{{ 'landing.contact_title1'|trans }}<span>{{ 'landing.contact_title2'|trans }}</span></h1>
+        <p>{{ 'landing.contact'|trans|nl2br }} </p>                       
     </div>
     <br />
     <ul>
         <li><img src="{{ asset('/img/spot-v.png') }}" class="bullet" /> Montpellier 34000, France</li>
-        <li><a href="mailto:marine@voyagir.com?Subject=Subject" target="_top"><img src="{{ asset('/img/arobase-v.png') }}" class="bullet" /> marine@voyagir.com</li>
+        <li><a href="mailto:marine@voyagir.com?Subject=Subject" target="_top">
+                <img src="{{ asset('/img/arobase-v.png') }}" class="bullet" /> marine@voyagir.com
+            </a>
+        </li>
         <li><img src="{{ asset('/img/phone-v.png') }}" class="bullet" /> 0607981297</li>
-        <li><span class="bullet">&nbsp;</span><a href="www.voyagir.com">www.voyagir.com</a></li>
-        <li><a href="http://www.twitter.com/voyagir">
+        <li><span class="bullet">&nbsp;</span>
+            <a href="http://www.voyagir.com">www.voyagir.com</a>
+        </li>
+        <li><a href="http://www.twitter.com/voyagir" target=_blank">
                 <img src="{{ asset('/img/twitter-v.png') }}" class="bullet" />
                 @voyagir
             </a>
         </li>
-        <li><a href="http://www.facebook.com/voyagir">
+        <li><a href="http://www.facebook.com/voyagir" target=_blank">
                 <img src="{{ asset('/img/facebook-v.png') }}" class="bullet" />
-                www.facebook.com/voyagir
+                facebook.com/voyagir
             </a>
         </li>
     </ul>

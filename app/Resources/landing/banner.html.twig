@@ -1,12 +1,23 @@
 <div id="banner">
-    <img src="{{ asset('img/logo_white.png') }}" class="logo">
+    <img src="{{ asset('img/logo_white.png') }}" class="logo" />
     
-    <a href="#keywords">Projet</a>
-    <a href="#contact">Contact</a>
+    <a href="#keywords">{{ 'landing.banner.project'|trans}}</a>
+    <a href="#contact">{{ 'landing.banner.contact'|trans}}</a>
     <a href="http://facebook.com/voyagir" target="_blank" data-toggle="tooltip" 
-       title="Voyagir sur Twitter!" class="icon facebook">
+       title="{{ 'landing.banner.facebook'|trans}}" class="icon facebook">
     </a>
     <a href="https://twitter.com/voyagir" target="_blank" data-toggle="tooltip" 
-       title="Voyagir sur Facebook!" class="icon twitter">
+       title="{{ 'landing.banner.twiter'|trans}}" class="icon twitter">
     </a>
+    {% if locale == "en" %}
+    <a href="/fr" data-toggle="tooltip" 
+       title="{{ 'landing.banner.french'|trans}}">
+        <img src="{{ asset('img/fr_icon.png') }}" class="flag"/>
+    </a>
+    {% else %}
+    <a href="/en" data-toggle="tooltip" 
+       title="{{ 'landing.banner.english'|trans}}">
+        <img src="{{ asset('img/en_icon.png') }}" class="flag"/>
+    </a>
+    {% endif %}
 </div>

@@ -1,0 +1,57 @@
+## YAML Template.
+
+landing:
+    catch_phrase: Ensemble développons un tourisme plus responsable grâce au partage de nos expériences
+    btn_follow: FOLLOW US
+    email: Email
+    contact_title1: Contactez-
+    contact_title2: Nous
+    contact: |
+            Posez-nous vos questions, dîtes-nous ce qui vous plaît dans le projet…
+            Nous souhaitons construire cette plateforme avec vous, alors... Dîtes-nous tout !
+    footer: >
+        Ce site est une page de présentation du projet Voy'Agir, il est en 
+        constante évolution, vers une version beta de la plateforme 
+        collaborative dynamique qui correspondra à vos envies et besoins.
+        Aidez-nous à les comprendre et co-construisons ensemble.
+    
+    banner:
+        project: Projet
+        contact: Contact
+        twitter: Voyagir sur Twitter!
+        facebook: Voyagir sur Facebook!
+        english: English version
+        french: Version française
+        
+    keywords:
+        catch_phrase: La première plateforme collaborative pour voyager de manière responsable
+        titles:
+            - VOYAGIR
+            - ORGANISER
+            - PARTAGER
+            - RÊVER
+        descriptions:
+            - > 
+                Parcourez le monde dans le respect de la planète
+                et de ses habitants, découvrez les plus belles cultures
+                et les plus beaux paysages en faisant de votre mieux
+                pour les protéger, apprenez à chaque fois un peu plus
+                comment améliorer votre impact.
+            - >    
+                Sélectionnez les établissements de votre voyage en
+                fonction des critères qui vous tiennent à cœur: respect 
+                de la biodiversité, gestion des déchets, rémunérations 
+                des employés locaux, respect des traditions locales… 
+            - >
+                Signalez les établissements et les endroits qui ont 
+                attiré votre attention par leur engagement environnemental,
+                social ou culturel. Partagez vos coups de cœurs,
+                vos bonnes pratiques, vos conseils et vos coups de gueule
+            - >            
+                Participer à un monde où il est facile de voyager de 
+                manière responsable, flâner sur les profils des autres 
+                voyageurs pour imaginer votre prochain voyage, faites 
+                la liste de vos destinations rêvées, découvrez tous les
+                moyens pour continuer à voyager sans abîmer notre 
+                patrimoine culturel et naturel…
+            

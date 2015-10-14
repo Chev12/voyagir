@@ -1,16 +1,16 @@
 <div id="home">
     <img class="logo" src="{{ asset('img/logo.png') }}" />
-    <center><h1>Ensemble développons un tourisme plus responsable grâce au partage de nos expériences</h1></center>
+    <center><h1>{{ 'landing.catch_phrase'|trans }}</h1></center>
     <div id="main-form">
         <!-- Begin MailChimp Signup Form -->
         <div id="mc_embed_signup">
             <form action="https://unblog.us8.list-manage.com/subscribe/post?u=401a984db528b45ce25452792&amp;id=eb2e374160" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                 <div id="mc_embed_signup_scroll">
                     <div class="mc-field-group">
-                        <label for="mce-EMAIL">Email </label>
+                        <label for="mce-EMAIL">{{ 'landing.email'|trans }}</label>
                         <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" />
                         <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn">
-                            FOLLOW US
+                            {{ 'landing.btn_follow'|trans }}
                         </button>
                         <div class="small-screen"><!-- Line break for smartphones --></div>
                         <a href="http://www.facebook.com/voyagir" target="_blank" class="icon facebook"></a>

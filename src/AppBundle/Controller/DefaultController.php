@@ -8,10 +8,17 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 class DefaultController extends Controller
 {
     /**
-     * @Route("/", name="homepage")
+     * @Route("/{_locale}", name="homepage", requirements={
+     *     "_locale": "en|fr"}, defaults={"_locale": "en"})
      */
-    public function indexAction()
+    public function indexAction($_locale = null)
     {
-        return $this->render('landing/index.html.twig');
+        if($_locale != null)
+        {
+            $this->get('session')->set('_locale', $_locale);
+        }
+        return $this->render('landing/index.html.twig', array(
+            'locale' => $_locale
+        ));
     }
 }

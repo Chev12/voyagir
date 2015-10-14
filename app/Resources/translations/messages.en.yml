@@ -1,0 +1,54 @@
+## YAML Template.
+
+landing:
+    catch_phrase: Together let’s build a more sustainable tourism by sharing our experiences
+    btn_follow: FOLLOW US
+    email: Email
+    
+    contact_title1: Contact-
+    contact_title2: Us
+    contact: |
+            Ask us anything, tell us what you like about Voy’Agir, and what you would like to be about it. 
+            We wish to buid this platform with you so… Tell us all!
+    
+    banner:
+        project: Project
+        contact: Contact
+        twitter: Voyagir on Twitter!
+        facebook: Voyagir on Facebook!
+        english: English version
+        french: Version française
+        
+    keywords:
+        catch_phrase: The first collaborative platform to travel responsibly
+        titles:
+            - VOYAGIR
+            - ORGANIZE
+            - SHARE
+            - DREAM
+        descriptions:
+            - > 
+                Travel the world respecting the planet and its inhabitants. 
+                Discover the most beautiful cultures et landscapes doing your 
+                best to protect them. Learn each day more how to make your 
+                impact positive. (the word VOYAGIR comes from the french 
+                VOYAGER which means traveling and AGIR which mean ACTING)
+            - >    
+                Select places of your trip by their commitment to something 
+                important to you : biodiversity respect, waste management, 
+                local employment, local tradition respect…
+            - >
+                Promote places you spied and loved because of their responsible 
+                commitment to environment, cultural or social matters. Share 
+                your favorite spots, involvements, tips, good practices, 
+                and also your rants.
+            - >            
+                Take part to a world where it is easy to travel responsibly, 
+                stroll between other responsible travelers profile to imagine 
+                your next trip, make your bucket list, discover every ways to 
+                travel without damaging our natural and cultural heritage.
+            
+    footer: >
+        This web site is a prensentation page of Voy’Agir that is constantly 
+        evolving to a beta version of the collaborative platform we want. 
+        Help us to understand your needs and wishes and co-build it with us.

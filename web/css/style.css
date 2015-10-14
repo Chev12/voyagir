@@ -69,10 +69,12 @@ section{
     position: relative;
     top: -25px;
 }
+
 #banner a{
     color: #444485;
     margin: 0% 0.5% 0% 0%;
 }
+
 #banner a:hover{
     text-decoration: none;
     color: #ebc84c;
@@ -83,6 +85,7 @@ section{
     height: 22px;
     top: 2px;
 }
+
 #banner .icon.facebook{
     top: 3px;
     background-image: url('../img/facebook-15b.png');
@@ -99,6 +102,13 @@ section{
 #banner .icon.twitter:hover {
     background-image: url('../img/twitter-j.png');
 }
+
+#banner .flag {
+    width: 30px;
+    height: 33px;
+    top: 2px;
+}
+
 
 /* Body */
 #keywords{
@@ -122,6 +132,7 @@ section{
     margin-right: 10px;
     width: 19%;
     float: left;
+    padding-bottom: 5px;
 }
 
 /* Contact */
@@ -234,12 +245,14 @@ section{
 .social-medias{
     margin-top: 5em;
 }
+
 /* 480px */
 @media (max-width: 480px){
     #mce-EMAIL{
     }
 }
 
+/* 768px */
 @media (max-width: 768px) {
     body{
         font-size: 1em;
@@ -292,5 +305,19 @@ section{
     
     #banner{
         display: none;
+    }
+}
+
+/*  Ajustement de la partie keywords 
+    pour éviter que le texte glisse sous l'image */
+@media (min-width: 768px) and (max-width: 992px) {
+    .feature img{
+        padding-bottom: 100px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .feature img{
+        padding-bottom: 50px;
     }
 }
