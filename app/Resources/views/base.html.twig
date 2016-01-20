@@ -1,12 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:og="http://ogp.me/ns#">
     <head>
+        
+        <title>{% block title %}{{ 'landing.title'|trans }}{% endblock %}</title>
+        <meta name="description" content="{{ 'landing.description'|trans }}" />
+        
+        <!-- Open Graph -->
+        <meta property="og:title" content="{{ 'landing.title'|trans }}" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://www.voyagir.com/" />
+        <meta property="og:image" content="{{ asset("/img/terre-15b.png")}}" />
+        <meta property="og:description" content="{{ 'landing.description'|trans }}" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:locale:alternate" content="fr_FR" />
+        
+        <!-- Autre -->
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
-        <title>{% block title %}VOY'AGIR is coming soon !{% endblock %}</title>
-        
+        <!-- Importations -->
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"
               rel="stylesheet" type="text/css" />
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"

@@ -1,6 +1,8 @@
 ## YAML Template.
 
 landing:
+    title: VOY'AGIR, the responsible tourism
+    description: The first collaborative platform to travel responsibly
     catch_phrase: Together let’s build a more sustainable tourism by sharing our experiences
     btn_follow: FOLLOW US
     email: Email
@@ -14,6 +16,7 @@ landing:
     banner:
         project: Project
         contact: Contact
+        blog: Blog
         twitter: Voyagir on Twitter!
         facebook: Voyagir on Facebook!
         english: English version
@@ -29,21 +32,21 @@ landing:
         descriptions:
             - > 
                 Travel the world respecting the planet and its inhabitants. 
-                Discover the most beautiful cultures et landscapes doing your 
+                Discover the most beautiful cultures and landscapes doing your 
                 best to protect them. Learn each day more how to make your 
                 impact positive. (the word VOYAGIR comes from the french 
                 VOYAGER which means traveling and AGIR which mean ACTING)
             - >    
                 Select places of your trip by their commitment to something 
-                important to you : biodiversity respect, waste management, 
-                local employment, local tradition respect…
+                important to you: respect of the biodiversity and local tradition, 
+                waste management, local employment…
             - >
                 Promote places you spied and loved because of their responsible 
                 commitment to environment, cultural or social matters. Share 
                 your favorite spots, involvements, tips, good practices, 
-                and also your rants.
+                and also your frustrations.
             - >            
-                Take part to a world where it is easy to travel responsibly, 
+                Take part in a world where it is easy to travel responsibly, 
                 stroll between other responsible travelers profile to imagine 
                 your next trip, make your bucket list, discover every ways to 
                 travel without damaging our natural and cultural heritage.

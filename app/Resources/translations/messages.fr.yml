@@ -1,14 +1,16 @@
 ## YAML Template.
 
 landing:
+    title: VOY'AGIR, le tourisme responsable
+    description: La première plateforme collaborative pour voyager de manière responsable
     catch_phrase: Ensemble développons un tourisme plus responsable grâce au partage de nos expériences
     btn_follow: FOLLOW US
     email: Email
     contact_title1: Contactez-
     contact_title2: Nous
     contact: |
-            Posez-nous vos questions, dîtes-nous ce qui vous plaît dans le projet…
-            Nous souhaitons construire cette plateforme avec vous, alors... Dîtes-nous tout !
+        Posez-nous vos questions, dîtes-nous ce qui vous plaît dans le projet…
+        Nous souhaitons construire cette plateforme avec vous, alors... Dîtes-nous tout !
     footer: >
         Ce site est une page de présentation du projet Voy'Agir, il est en 
         constante évolution, vers une version beta de la plateforme 
@@ -18,6 +20,7 @@ landing:
     banner:
         project: Projet
         contact: Contact
+        blog: Blog
         twitter: Voyagir sur Twitter!
         facebook: Voyagir sur Facebook!
         english: English version
