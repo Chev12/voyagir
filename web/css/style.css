@@ -54,7 +54,7 @@ section{
     text-align: right;
     height: 50px;
     background-color: #33ccaf;
-    padding: 5px 5% 0% 5%;
+    padding: 5px 0 0 0;
     position: fixed;
     top : 0px;
     width: 100%;
@@ -70,9 +70,13 @@ section{
     top: -25px;
 }
 
-#banner a{
+#banner #links{
+    display: inline;
+}
+
+#banner #links a{
     color: #444485;
-    margin: 0% 0.5% 0% 0%;
+    margin-right: 20px;
 }
 
 #banner a:hover{
@@ -132,7 +136,11 @@ section{
     margin-right: 10px;
     width: 19%;
     float: left;
-    padding-bottom: 5px;
+    padding-bottom: 50px;
+}
+
+.feature p{
+    font-size: 1.2em;
 }
 
 /* Contact */
@@ -306,6 +314,15 @@ section{
     #banner{
         display: none;
     }
+    #footer{
+        font-size: inherit;
+    }
+    .feature p{
+        font-size: 1em;
+    }
+    .feature img{
+        padding-bottom: 80px;
+    }
 }
 
 /*  Ajustement de la partie keywords 
@@ -314,10 +331,16 @@ section{
     .feature img{
         padding-bottom: 100px;
     }
+    .feature p{
+        font-size: 1em;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
     .feature img{
         padding-bottom: 50px;
+    }
+    .feature p{
+        font-size: 1em;
     }
 }

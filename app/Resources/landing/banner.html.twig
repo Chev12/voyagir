@@ -1,9 +1,17 @@
 <div id="banner">
     <img src="{{ asset('img/logo_white.png') }}" class="logo" />
     
-    <a href="#keywords">{{ 'landing.banner.project'|trans}}</a>
-    <a href="#contact">{{ 'landing.banner.contact'|trans}}</a>
-    <a href="http://blog.voyagir.fr">{{ 'landing.banner.blog'|trans}}</a>
+    <div id="links">
+        <a href="#keywords">{{ 'landing.banner.project'|trans}}</a>
+        <a href="#contact">{{ 'landing.banner.contact'|trans}}</a>
+        {% if locale == "en" %}
+            <a href="http://blog.voyagir.fr/en_GB">{{ 'landing.banner.blog'|trans}}</a>
+            <a href="https://docs.google.com/forms/d/1_SnXsZ9lE_XiSKomUZD5XVQFO6_ewpE-uAz4a6DRwcE/viewform?c=0&w=1">{{ 'landing.banner.part'|trans}}</a>
+        {% else %}
+            <a href="http://blog.voyagir.fr">{{ 'landing.banner.blog'|trans}}</a>
+            <a href="https://docs.google.com/forms/d/1MwylJ5T3EGcUq2LG-WT7qNZiuj8KikXO-Wz1l4-INJw/viewform?c=0&w=1">{{ 'landing.banner.part'|trans}}</a>
+        {% endif %}
+    </div>
     <a href="http://facebook.com/voyagir" target="_blank" data-toggle="tooltip" 
        title="{{ 'landing.banner.facebook'|trans}}" class="icon facebook">
     </a>
@@ -11,14 +19,14 @@
        title="{{ 'landing.banner.twiter'|trans}}" class="icon twitter">
     </a>
     {% if locale == "en" %}
-    <a href="/fr" data-toggle="tooltip" 
-       title="{{ 'landing.banner.french'|trans}}">
-        <img src="{{ asset('img/fr_icon.png') }}" class="flag"/>
-    </a>
+        <a href="/fr" data-toggle="tooltip" 
+           title="{{ 'landing.banner.french'|trans}}">
+            <img src="{{ asset('img/fr_icon.png') }}" class="flag"/>
+        </a>
     {% else %}
-    <a href="/en" data-toggle="tooltip" 
-       title="{{ 'landing.banner.english'|trans}}">
-        <img src="{{ asset('img/en_icon.png') }}" class="flag"/>
-    </a>
+        <a href="/en" data-toggle="tooltip" 
+           title="{{ 'landing.banner.english'|trans}}">
+            <img src="{{ asset('img/en_icon.png') }}" class="flag"/>
+        </a>
     {% endif %}
 </div>
