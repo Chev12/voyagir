@@ -39,7 +39,7 @@ section{
 #home {
     color: #ebc84c;
     font-family: 'Sue Ellen Francisco', cursive;
-    background: url("../img/bg1.jpg") no-repeat;
+    background: url("../img/bg.jpg") no-repeat;
     background-size: cover;
     background-origin: border-box;
     //background-color: #f8f8f0;
