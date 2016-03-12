@@ -2,31 +2,32 @@
 
 landing:
     title: VOY'AGIR, the responsible tourism
-    description: The first collaborative platform to travel responsibly
-    catch_phrase: Together let’s build a more sustainable tourism by sharing our experiences
+    description: |
+        The first collaborative platform to travel responsibly is coming soon...
+        Check out for our %ls%blog%le% for more infos and subscribe to our newsletter below!
     btn_follow: FOLLOW US
     email: Email
     
     contact_title1: Contact-
     contact_title2: Us
     contact: |
-            Ask us anything, tell us what you like about Voy’Agir, and what you would like to be about it. 
-            We wish to buid this platform with you so… Tell us all!
+            Ask us anything, tell us what you like about Voy’Agir, and what you like about it. 
+            We wish to build this platform with you so… Tell us everything!
     
     banner:
         project: Project
         contact: Contact
         blog: Blog
         part: Contribute
-        twitter: Voyagir on Twitter!
-        facebook: Voyagir on Facebook!
+        twitter: Voy'agir on Twitter!
+        facebook: Voy'agir on Facebook!
         english: English version
         french: Version française
         
     keywords:
-        catch_phrase: The first collaborative platform to travel responsibly
+        catch_phrase: Together let’s build a more sustainable tourism by sharing our experiences
         titles:
-            - VOYAGIR
+            - VOY'AGIR
             - ORGANIZE
             - SHARE
             - DREAM
@@ -53,6 +54,6 @@ landing:
                 travel without damaging our natural and cultural heritage.
             
     footer: >
-        This web site is a prensentation page of Voy’Agir that is constantly 
+        This web site is a presentation page of Voy’Agir that is constantly 
         evolving to a beta version of the collaborative platform we want. 
         Help us to understand your needs and wishes and co-build it with us.

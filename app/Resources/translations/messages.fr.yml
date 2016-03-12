@@ -2,35 +2,32 @@
 
 landing:
     title: VOY'AGIR, le tourisme responsable
-    description: La première plateforme collaborative pour voyager de manière responsable
-    catch_phrase: Ensemble développons un tourisme plus responsable grâce au partage de nos expériences
+    description: |
+        La première plateforme collaborative pour voyager de manière responsable arrive bientôt...
+        Suivez notre %ls%blog%le% et inscrivez-vous à notre newsletter ci-dessous !
     btn_follow: FOLLOW US
     email: Email
+    
     contact_title1: Contactez-
     contact_title2: Nous
     contact: |
         Posez-nous vos questions, dîtes-nous ce qui vous plaît dans le projet…
         Nous souhaitons construire cette plateforme avec vous, alors... Dîtes-nous tout !
-    footer: >
-        Ce site est une page de présentation du projet Voy'Agir, il est en 
-        constante évolution, vers une version beta de la plateforme 
-        collaborative dynamique qui correspondra à vos envies et besoins.
-        Aidez-nous à les comprendre et co-construisons ensemble.
     
     banner:
         project: Projet
         contact: Contact
         blog: Blog
         part: Participer
-        twitter: Voyagir sur Twitter!
-        facebook: Voyagir sur Facebook!
+        twitter: Voy'agir sur Twitter!
+        facebook: Voy'agir sur Facebook!
         english: English version
         french: Version française
         
     keywords:
-        catch_phrase: La première plateforme collaborative pour voyager de manière responsable
+        catch_phrase: Ensemble développons un tourisme plus responsable grâce au partage de nos expériences
         titles:
-            - VOYAGIR
+            - VOY'AGIR
             - ORGANISER
             - PARTAGER
             - RÊVER
@@ -58,4 +55,10 @@ landing:
                 la liste de vos destinations rêvées, découvrez tous les
                 moyens pour continuer à voyager sans abîmer notre 
                 patrimoine culturel et naturel…
+                
+    footer: >
+        Ce site est une page de présentation du projet Voy'Agir, il est en 
+        constante évolution, vers une version beta de la plateforme 
+        collaborative dynamique qui correspondra à vos envies et besoins.
+        Aidez-nous à les comprendre et co-construisons ensemble.
             
